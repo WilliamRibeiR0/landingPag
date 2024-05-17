@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #ffffff;
+    --bg-color: #46403a;
+    --container-color: #837d6e;
+    --button-color: #009379;
+}
+
+body{
+    background-color: #f8f9ff;
+  
+        
+   
+}
+
+/*------------------- HEADER ---------------------------*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    width: 100%;
+    padding: 20px; 
+    margin-top: 100px; 
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+header nav{
+   display: flex; 
+   gap: 20px; 
+}
+
+.title{
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    background-color: #e5f4f2;
+    box-shadow: 2px 2px 2px black;
+    color: var(--button-color);
+    width: 202px;
+    height: 60px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+}
+
+.GetStandart{
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 202px;
+    height: 60px;
+    text-decoration: none;
+    background-color: var(--button-color);
+    border-radius: 20px;
+    color: white;
+}
+
+/*------------------- SECTION main ---------------------------*/
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+/*------------------- SECTION pagInt ---------------------------*/
+
+
+
+
+img{
+    margin-right: 10px;
+}
+
+.pagInt strong{
+    color: #3d98f3;
+}
+
+.pagInt{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+    box-shadow: 2px 2px black;
+    margin-bottom: 60px;
+}
+
+.intButton{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.intInfo h1{
+    width: 648px;
+    font-size: 85px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    
+}
+
+.intInfo p{
+    font-size: 20px;
+    width: 648px;
+    margin-top: 20px;
+}
+
+.intGet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 202px;
+    height: 60px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: var(--button-color);
+}
+
+.getHow{
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+    width: 202px;
+    height: 60px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+}
+
+/*------------------- SECTION logoBar ---------------------------*/
+
+.logBar{
+    display: grid;
+    place-items: center;
+    
+}
+
+.logoList{
+    display: flex;
+    width: 1170px;
+    align-items: center;
+    justify-content: center;
+    gap: 126px;
+    list-style: none;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    padding: 61px;
+    
+}
+
+/*------------------- SECTION features ---------------------------*/
+
+#features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 100vh;
+    gap: 60px;
+}
+
+.fast a{
+    color: green;
+    text-decoration: none;
+}
+
+.card{
+    
+    display: flex;
+    gap: 20px;
+}
