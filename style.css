@@ -337,6 +337,9 @@ img {
    width: 370px;
    gap: 30px;
    background-color: white;
+   box-shadow: 9px 8px 20px 20px #00000017;
+   border-radius: 20px;
+   padding: 20px;
 }
 
 .cardtestimo .img{
@@ -350,3 +353,57 @@ img {
     width: 300px;
 }
 
+/*------------------- SECTION Pricing ---------------------------*/
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    height: 100vh;
+}
+
+.boxPricing{
+    display: flex;
+    gap: 30px;
+}
+
+.cardPricing{
+    background-color: white;
+    box-shadow: 9px 8px 20px 20px #00000017;
+    width: 370px;
+    height: 424px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    text-align: start;
+    border-radius: 20px;
+}
+
+.cardPricing li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardPricing .button, a{
+    width: 310px;
+    height: 60px;
+    background-color: #e5f4f2;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #64bdae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.teste{
+    background-color: #009379;
+    color: white;
+}
